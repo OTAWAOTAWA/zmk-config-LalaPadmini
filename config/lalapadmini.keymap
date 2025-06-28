@@ -200,10 +200,10 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN        &kp HASH      &kp DOLLAR            &kp PERCENT            &kp LCTRL    &kp EXCLAMATION       &kp PIPE        &kp GRAVE       &trans
-&kp CARET             &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp AMPERSAND         &kp TILDE       &kp UP_ARROW    &kp UNDERSCORE
-&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH    &kp NON_US_BACKSLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&trans                &trans                           &bt BT_CLR            &trans                 &trans       &trans                                &kp TAB         &kp RIGHT_ALT
+&kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL    &kp EXCLAMATION       &kp PIPE        &kp GRAVE       &trans
+&kp HASH     &kp SQT         &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp AMPERSAND         &kp TILDE       &kp UP_ARROW    &kp UNDERSCORE
+&kp DOLLAR   &kp COLON       &kp SEMICOLON      &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH    &kp NON_US_BACKSLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&trans       &trans                             &bt BT_CLR            &trans                 &trans       &trans                                &kp TAB         &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
