@@ -228,7 +228,7 @@
             bindings = <
 &kp JP_AT   &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_LPAREN    &kp JP_RPAREN     &kp JP_CARET  &kp EXCLAMATION   &kp JP_PIPE     &kp JP_BACKQUOTE  &trans
 &kp HASH    &kp JP_QUOTE   &kp JP_DQUOTE  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp PERCENT   &kp JP_AMPERSAND  &kp JP_TILDE    &kp UP_ARROW      &kp JP_UNDERSCORE
-&kp DOLLAR  &kp COLON      &kp SEMICOLON  &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH     &kp JP_YEN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
+&kp DOLLAR  &kp JP_COLON      &kp SEMICOLON  &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH     &kp JP_YEN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
 &trans      &trans                        &bt BT_CLR       &trans            &trans        &trans                            &kp TAB           &kp RIGHT_ALT
             >;
 
