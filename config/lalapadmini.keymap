@@ -149,6 +149,16 @@
             bindings = <&kp LWIN>;
             key-positions = <30 31>;
         };
+
+        COMBO_en {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <32 33>;
+        };
+
+        COMBO_js {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
