@@ -161,21 +161,6 @@
     combos {
         compatible = "zmk,combos";
 
-        CONBO_ESC {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
-        COMBO_TAB {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
-
-        COMBO_WIN {
-            bindings = <&kp LWIN>;
-            key-positions = <30 31>;
-        };
-
         COMBO_En {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <32 33>;
