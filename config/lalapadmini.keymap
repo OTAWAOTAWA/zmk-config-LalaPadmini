@@ -277,7 +277,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&tog 9  &trans          &trans  &trans  &trans  &trans          &trans  &trans
+&tog 9  &tog 0          &trans  &trans  &trans  &trans          &trans  &trans
             >;
         };
 
