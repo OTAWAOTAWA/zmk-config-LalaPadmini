@@ -87,7 +87,7 @@
 &xiao_spi {
     status = "okay";
     //cs-gpios = <&gpio1 10 (GPIO_ACTIVE_LOW )>, <&gpio0 13 (GPIO_PULL_UP)>;//dummy
-    cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>,<&gpio0 10 GPIO_ACTIVE_LOW>, <&gpio0 13 (GPIO_PULL_UP)>;//dummy
+    cs-gpios = <&gpio1 10 (GPIO_PULL_UP )>, <&gpio0 13 (GPIO_PULL_UP)>;//dummy
 
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
