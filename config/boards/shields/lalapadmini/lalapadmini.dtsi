@@ -88,6 +88,16 @@
     status = "okay";
     cs-gpios = <&gpio1 10 (GPIO_ACTIVE_LOW )>, <&gpio0 13 (GPIO_PULL_UP)>;//dummy
 
+    shifter: 595@0 {
+        compatible = "zmk,gpio-595";
+        status = "okay";
+        gpio-controller;
+        spi-max-frequency = <200000>;
+        reg = <0>;
+        #gpio-cells = <2>;
+        ngpios = <8>;
+    };
+
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         status = "okay";
@@ -97,7 +107,7 @@
 
         sensitivity = "2x";
         //no-taps;
-        no-smoothing;
+        //no-smoothing;
     };
 };
 
