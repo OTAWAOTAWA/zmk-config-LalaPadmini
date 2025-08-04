@@ -13,6 +13,10 @@
 #define SCROLL_R_LAYER  5
 #define MOUSE_L_LAYER   6
 #define SCROLL_L_LAYER  7
+#define US_JS           8
+#define US              9
+#define US_sugi         10
+#define US_kigo         11
 
 // OS設定を日本語キーボードのまま使用するための変換定義
 
