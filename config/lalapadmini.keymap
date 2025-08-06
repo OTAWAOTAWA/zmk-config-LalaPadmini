@@ -177,7 +177,7 @@
             key-positions = <34 35>;
         };
 
-        COMBO_Jn {
+        COMBO_Tab {
             bindings = <&kp TAB>;
             key-positions = <23 24>;
         };
