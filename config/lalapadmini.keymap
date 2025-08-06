@@ -176,6 +176,12 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <34 35>;
         };
+
+        COMBO_Jn {
+            bindings = <&kp TAB>;
+            key-positions = <23 24>;
+        };
+
     };
 
     macros {
