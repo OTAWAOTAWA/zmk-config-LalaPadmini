@@ -182,6 +182,16 @@
             key-positions = <23 24>;
         };
 
+        COMBO_BC {
+            bindings = <&bt BT_CLR>;
+            key-positions = <24 10 22>;
+        };
+
+        COMBO_BCA {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <24 22>;
+        };
+
     };
 
     macros {
