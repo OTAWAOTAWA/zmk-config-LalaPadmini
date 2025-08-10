@@ -191,7 +191,6 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <24 22>;
         };
-
     };
 
     macros {
@@ -223,10 +222,10 @@
             sensor-bindings = <&scroll_right_left>, <&scroll_right_left>;
 
             bindings = <
-&bt BT_SEL 0  &kp F1        &kp F2   &kp F3     &kp F4      &kp N7         &kp N8          &kp N9        &kp JP_PLUS      &kp MINUS
-&bt BT_SEL 1  &kp F5        &kp F6   &kp F7     &kp F8      &kp NUMBER_4   &kp N5          &kp NUMBER_6  &kp JP_ASTERISK  &kp SLASH
-&bt BT_SEL 2  &lt 6 F9      &kp F10  &kp F11    &kp F12     &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3  &lt 4 PERIOD     &kp N0
-&bt BT_SEL 3  &bt BT_SEL 4           &kp SPACE  &kp DELETE  &kp BACKSPACE  &bt BT_CLR_ALL                &kp JP_EQUAL     &kp ESCAPE
+&bt BT_SEL 0  &kp F1        &kp F2   &kp F3     &kp F4      &kp N7         &kp N8        &kp N9        &kp JP_PLUS      &kp MINUS
+&bt BT_SEL 1  &kp F5        &kp F6   &kp F7     &kp F8      &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp JP_ASTERISK  &kp SLASH
+&bt BT_SEL 2  &lt 6 F9      &kp F10  &kp F11    &kp F12     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &lt 4 PERIOD     &kp N0
+&bt BT_SEL 3  &bt BT_SEL 4           &kp SPACE  &kp DELETE  &kp BACKSPACE  &kp ENTER                   &kp JP_EQUAL     &kp ESCAPE
             >;
         };
 
@@ -236,7 +235,7 @@
 &kp JP_AT   &kp JP_LBRACE   &kp JP_RBRACE  &kp JP_LPAREN    &kp JP_RPAREN     &kp JP_CARET   &kp EXCLAMATION   &kp JP_PIPE     &kp JP_BACKQUOTE  &trans
 &kp HASH    &kp JP_QUOTE    &kp JP_DQUOTE  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp PERCENT    &kp JP_AMPERSAND  &kp JP_TILDE    &kp UP_ARROW      &kp JP_UNDERSCORE
 &kp DOLLAR  &kp JP_COLON    &kp SEMICOLON  &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH      &kp JP_YEN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
-&kp LCTRL   &kp LEFT_SHIFT                 &bt BT_CLR       &kp DELETE        &kp BACKSPACE  &kp ENTER                         &kp TAB           &kp RIGHT_ALT
+&kp LCTRL   &kp LEFT_SHIFT                 &kp SPACE        &kp DELETE        &kp BACKSPACE  &kp ENTER                         &kp TAB           &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_right_left>, <&scroll_right_left>;
@@ -316,10 +315,10 @@
 
         US_sugi {
             bindings = <
-&bt BT_SEL 0  &kp F1        &kp F2   &kp F3     &kp F4   &kp N7         &kp N8          &kp N9  &kp PLUS      &kp MINUS
-&bt BT_SEL 1  &kp F5        &kp F6   &kp F7     &kp F8   &kp N4         &kp N5          &kp N6  &kp ASTERISK  &kp SLASH
-&bt BT_SEL 2  &kp F9        &kp F10  &kp F11    &kp F12  &kp N1         &kp N2          &kp N3  &kp DOT       &kp N0
-&bt BT_SEL 3  &bt BT_SEL 4           &kp SPACE  &kp DEL  &kp BACKSPACE  &bt BT_CLR_ALL          &kp EQUAL     &kp ESCAPE
+&bt BT_SEL 0  &kp F1        &kp F2   &kp F3     &kp F4   &kp N7         &kp N8     &kp N9  &kp PLUS      &kp MINUS
+&bt BT_SEL 1  &kp F5        &kp F6   &kp F7     &kp F8   &kp N4         &kp N5     &kp N6  &kp ASTERISK  &kp SLASH
+&bt BT_SEL 2  &kp F9        &kp F10  &kp F11    &kp F12  &kp N1         &kp N2     &kp N3  &kp DOT       &kp N0
+&bt BT_SEL 3  &bt BT_SEL 4           &kp SPACE  &kp DEL  &kp BACKSPACE  &kp ENTER          &kp EQUAL     &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -330,7 +329,7 @@
 &kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp EXCLAMATION  &kp PIPE        &kp GRAVE       &trans
 &kp HASH     &kp SQT         &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT    &kp AMPERSAND    &kp TILDE       &kp UP_ARROW    &kp UNDERSCORE
 &kp DOLLAR   &kp COLON       &kp SEMICOLON      &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH      &kp BSLH         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
-&kp LCTRL    &kp LEFT_SHIFT                     &bt BT_CLR            &kp DELETE             &kp BACKSPACE  &kp ENTER                        &kp TAB         &kp RIGHT_ALT
+&kp LCTRL    &kp LEFT_SHIFT                     &kp SPACE             &kp DELETE             &kp BACKSPACE  &kp ENTER                        &kp TAB         &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_right_left>;
