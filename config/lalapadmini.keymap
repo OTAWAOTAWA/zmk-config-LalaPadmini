@@ -184,12 +184,12 @@
 
         COMBO_BC {
             bindings = <&bt BT_CLR>;
-            key-positions = <24 10 22>;
+            key-positions = <22 24>;
         };
 
         COMBO_BCA {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <24 22>;
+            key-positions = <10 22 24>;
         };
     };
 
